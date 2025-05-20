@@ -29,8 +29,7 @@ class MainActivity : AppCompatActivity() {
         val txtEmail = email.text.toString()
         val txtSenha = senha.text.toString()
 
-        if (txtEmail == "joao@gmail.com" && txtSenha == "1234") {
-            Toast.makeText(this, "Bem-vindo", Toast.LENGTH_LONG).show()
+        if (txtEmail == "1" && txtSenha == "1") {
             val intent = Intent(this, Principal::class.java)
             startActivity(intent)
         } else {
@@ -41,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     fun btnMostrarSenhaEmail(view: View) {
 
             Toast.makeText(this, "Email: joao@gmail.com Senha: 1234", Toast.LENGTH_LONG).show()
-        
+
     }
 
 
