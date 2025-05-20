@@ -3,10 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="Ação 1" app:showAsAction="always"/>
-    <item android:title="Ação 2" app:showAsAction="always"/>
-    <item android:title="Ação 3" app:showAsAction="always"/>
-    <item android:title="Ação 4" app:showAsAction="always"/>
+    <item android:title="" app:showAsAction="always" android:icon="@drawable/configuracoes" app:iconTint="@color/black"/>
+    <item android:title="" app:showAsAction="always" android:icon="@drawable/perfil" app:iconTint="@color/black"/>
+    <item android:title="" app:showAsAction="always" android:icon="@drawable/carrinho" app:iconTint="@color/black"/>
 
 
 </menu>
