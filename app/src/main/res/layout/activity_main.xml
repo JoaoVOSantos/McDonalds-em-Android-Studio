@@ -28,6 +28,7 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -40,6 +41,7 @@
             android:textColorHint="@color/white" />
 
         <EditText
+            android:id="@+id/senha"
             android:fontFamily="sans-serif-thin"
             android:hint="Senha"
             android:layout_marginTop="30dp"
@@ -49,7 +51,9 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:backgroundTint="@color/white" />
+            android:backgroundTint="@color/white"
+            android:inputType="textPassword"
+            />
 
     </LinearLayout>
 
@@ -60,6 +64,7 @@
 
 
         <Button
+            android:onClick="btnEntrarTela01"
             android:layout_width="250dp"
             android:layout_height="45dp"
             android:layout_gravity="center"
@@ -119,6 +124,7 @@
 
     </LinearLayout>
         <ImageView
+            android:onClick="btnMostrarSenhaEmail"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/ajuda"
