@@ -64,7 +64,8 @@
             android:layout_height="45dp"
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
-            android:background="@drawable/bordabotao"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
             android:fontFamily="sans-serif-smallcaps"
             android:text="ENTRAR"
             android:textSize="12dp" />
@@ -117,6 +118,15 @@
 
 
     </LinearLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ajuda"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
     </LinearLayout>
 
 
