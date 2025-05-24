@@ -3,6 +3,10 @@
     <style name="Base.Theme.McDonalds" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Cor da status bar -->
+        <item name="android:statusBarColor">#FFC72C</item>
+
     </style>
 
     <style name="Theme.McDonalds" parent="Base.Theme.McDonalds" />

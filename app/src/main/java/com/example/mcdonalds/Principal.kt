@@ -4,10 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class Principal : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +22,10 @@ class Principal : AppCompatActivity() {
         when(item?.itemId){
             R.id.btnToolbarConfig -> {
                 val intent = Intent(this, Configuracoes::class.java)
+                startActivity(intent)
+            }
+            R.id.btnPerfil -> {
+                val intent = Intent(this, Perfil::class.java)
                 startActivity(intent)
             }
 
