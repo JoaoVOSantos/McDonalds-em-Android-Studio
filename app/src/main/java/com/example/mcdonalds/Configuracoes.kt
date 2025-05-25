@@ -29,6 +29,10 @@ class Configuracoes : AppCompatActivity() {
                 val intent = Intent(this, Configuracoes::class.java)
                 startActivity(intent)
             }
+            R.id.btnPerfil -> {
+            val intent = Intent(this, Perfil::class.java)
+            startActivity(intent)
+        }
 
         }
         return true
