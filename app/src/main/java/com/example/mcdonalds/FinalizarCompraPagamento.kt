@@ -4,15 +4,13 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.activity.enableEdgeToEdge
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
-class FinalizarCompra : AppCompatActivity() {
+class FinalizarCompraPagamento : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_finalizar_compra)
+        setContentView(R.layout.activity_finalizar_compra_pagamento)
         setSupportActionBar(findViewById(R.id.toolbar))
 
 
@@ -40,5 +38,10 @@ class FinalizarCompra : AppCompatActivity() {
             }
         }
         return true
+    }
+
+    fun btnFinalizarEndereco(view: View){
+        val intent = Intent(this, FinalizarCompraEndereco::class.java)
+        startActivity(intent)
     }
 }
