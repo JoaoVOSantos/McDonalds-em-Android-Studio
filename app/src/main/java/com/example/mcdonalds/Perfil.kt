@@ -79,11 +79,15 @@ class Perfil : AppCompatActivity() {
                 val intent = Intent(this, Configuracoes::class.java)
                 startActivity(intent)
             }
-            R.id.btnPerfil -> {
+            R.id.btnToolbarPerfil -> {
                 val intent = Intent(this, Perfil::class.java)
                 startActivity(intent)
             }
 
+            R.id.btnToolbarCarrinho -> {
+                val intent = Intent(this, Carrinho::class.java)
+                startActivity(intent)
+            }
         }
         return true
     }

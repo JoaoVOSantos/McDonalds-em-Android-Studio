@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
 class Principal : AppCompatActivity() {
@@ -24,14 +25,17 @@ class Principal : AppCompatActivity() {
                 val intent = Intent(this, Configuracoes::class.java)
                 startActivity(intent)
             }
-            R.id.btnPerfil -> {
+            R.id.btnToolbarPerfil -> {
                 val intent = Intent(this, Perfil::class.java)
                 startActivity(intent)
             }
 
+            R.id.btnToolbarCarrinho -> {
+                val intent = Intent(this, Carrinho::class.java)
+                startActivity(intent)
+            }
         }
         return true
     }
-
 
 }
