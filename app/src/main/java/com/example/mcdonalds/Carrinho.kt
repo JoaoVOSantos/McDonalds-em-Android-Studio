@@ -43,6 +43,11 @@ class Carrinho : AppCompatActivity() {
         TXTPRECO.text = "Preço: 50,00"
     }
 
+    fun btnComprar(view: View){
+        val intent = Intent(this, Comprar::class.java)
+        startActivity(intent)
+    }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item?.itemId){

@@ -116,16 +116,6 @@
 
                 </LinearLayout>
 
-                <Button
-                    android:layout_width="250dp"
-                    android:layout_height="45dp"
-                    android:layout_gravity="center"
-                    android:layout_margin="10dp"
-                    android:backgroundTint="@color/white"
-                    android:text="Comprar"
-                    android:textColor="@color/black"
-                    android:textSize="12dp" />
-
             </LinearLayout>
         </LinearLayout>
 
@@ -212,16 +202,6 @@
                         android:text="Preço: 99,00"/>
 
                 </LinearLayout>
-
-                <Button
-                    android:layout_gravity="center"
-                    android:layout_width="250dp"
-                    android:layout_height="45dp"
-                    android:layout_margin="10dp"
-                    android:backgroundTint="@color/white"
-                    android:textColor="@color/black"
-                    android:text="Comprar"
-                    android:textSize="12dp" />
 
             </LinearLayout>
         </LinearLayout>
@@ -311,18 +291,19 @@
 
                 </LinearLayout>
 
-                <Button
-                    android:layout_gravity="center"
-                    android:layout_width="250dp"
-                    android:layout_height="45dp"
-                    android:layout_margin="10dp"
-                    android:backgroundTint="@color/white"
-                    android:textColor="@color/black"
-                    android:text="Comprar"
-                    android:textSize="12dp" />
-
             </LinearLayout>
         </LinearLayout>
+
+        <Button
+            android:onClick="btnComprar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:text="Comprar Carinho"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
 
     </LinearLayout>
 </ScrollView>
