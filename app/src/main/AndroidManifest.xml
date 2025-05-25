@@ -15,6 +15,9 @@
         android:theme="@style/Theme.McDonalds"
         tools:targetApi="31">
         <activity
+            android:name=".ConfirmarInformacoes"
+            android:exported="false" />
+        <activity
             android:name=".FinalizarCompraEndereco"
             android:exported="false" />
         <activity
