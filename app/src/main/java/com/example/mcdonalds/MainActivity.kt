@@ -28,8 +28,10 @@ class MainActivity : AppCompatActivity() {
     fun btnEntrarTela01(view: View) {
         val txtEmail = email.text.toString()
         val txtSenha = senha.text.toString()
+        val RetornoEmail = intent.getStringExtra("email")
+        val RetornoSenha = intent.getStringExtra("senha")
 
-        if (txtEmail == "1" && txtSenha == "1") {
+        if (txtEmail == RetornoEmail && txtSenha == RetornoSenha) {
             val intent = Intent(this, Principal::class.java)
             startActivity(intent)
         } else {
@@ -38,8 +40,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun btnMostrarSenhaEmail(view: View) {
+        val RetornoEmail = intent.getStringExtra("email")
+        val RetornoSenha = intent.getStringExtra("senha")
+        Toast.makeText(this, "Email: "  + RetornoEmail + "\n" + "Senha: " + RetornoSenha, Toast.LENGTH_LONG).show()
 
-            Toast.makeText(this, "Email: joao@gmail.com Senha: 1234", Toast.LENGTH_LONG).show()
+    }
+
+    fun txtCriarConta(view: View) {
+
+        val intent = Intent(this, CriarConta::class.java)
+        startActivity(intent)
 
     }
 
