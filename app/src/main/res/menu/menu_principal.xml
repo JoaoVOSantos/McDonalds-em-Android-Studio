@@ -6,6 +6,6 @@
     <item android:title="" app:showAsAction="always" android:id="@+id/btnToolbarConfig" android:icon="@drawable/configuracoes" app:iconTint="@color/black"/>
     <item android:title="" app:showAsAction="always" android:id="@+id/btnToolbarPerfil" android:icon="@drawable/perfil" app:iconTint="@color/black"/>
     <item android:title="" app:showAsAction="always" android:id="@+id/btnToolbarCarrinho" android:icon="@drawable/carrinho" app:iconTint="@color/black"/>
-
+    <item android:title="" app:showAsAction="always" android:id="@+id/btnToolbarHistorico" android:icon="@drawable/historico" app:iconTint="@color/black"/>
 
 </menu>

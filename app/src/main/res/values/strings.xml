@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">mcDonalds</string>
+    <string name="titulo_mcdonalds"><u>Sobre o McDonald\'s</u></string>
 </resources>

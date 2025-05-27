@@ -150,7 +150,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="saladas"
+                android:text="Saladas"
                 android:textColor="@color/white"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -367,5 +367,16 @@
                 android:src="@drawable/setadiagonal"
                 />
         </LinearLayout>
+
+        <TextView
+            android:onClick="btnSobre"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#0000FF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/titulo_mcdonalds" />
+            />
     </LinearLayout>
 </ScrollView>

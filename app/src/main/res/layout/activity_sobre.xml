@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Sobre">
+
+    <include layout="@menu/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="Sobre"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="O McDonald's é uma das maiores redes de fast-food do mundo, conhecido globalmente por seus hambúrgueres, batatas fritas e milk-shakes. Fundado em 1940 pelos irmãos Richard e Maurice McDonald nos Estados Unidos, a empresa revolucionou a indústria de alimentos com o sistema Speedee, focado na eficiência e rapidez do serviço. Ray Kroc, um vendedor de máquinas de milk-shake, juntou-se à empresa e posteriormente a comprou, expandindo-a para a gigante multinacional que é hoje. O McDonald's serve milhões de clientes diariamente em mais de 100 países, oferecendo um cardápio que, embora padronizado, também inclui itens regionais para atender aos gostos locais."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:lineSpacingMultiplier="1.2"
+        android:gravity="fill_horizontal" />
+
+    <Button
+        android:onClick="btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/white"
+        android:text="Voltar"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+
+</LinearLayout>
