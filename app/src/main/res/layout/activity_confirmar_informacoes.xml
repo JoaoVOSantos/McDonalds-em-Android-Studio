@@ -10,4 +10,6 @@
     android:background="@color/black"
     tools:context=".ConfirmarInformacoes">
 
+    <include layout="@menu/toolbar"/>
+
 </LinearLayout>
