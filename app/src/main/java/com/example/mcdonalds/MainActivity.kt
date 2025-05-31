@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity() {
         val RetornoEmail = intent.getStringExtra("email")
         val RetornoSenha = intent.getStringExtra("senha")
 
-        if (txtEmail == "1" && txtSenha == "1") {
+        if (txtEmail == RetornoEmail && txtSenha == RetornoSenha) {
             val intent = Intent(this, Principal::class.java)
             startActivity(intent)
-        } else {
-            Toast.makeText(this, "Email ou Senha Incorretos.", Toast.LENGTH_LONG).show()
+        }else{
+            Toast.makeText(this, "Email ou Senha Invalidos.", Toast.LENGTH_LONG).show()
         }
     }
 
