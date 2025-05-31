@@ -46,4 +46,9 @@ class Principal : AppCompatActivity() {
         val intent = Intent(this, Produtos::class.java)
         startActivity(intent)
     }
+
+    fun btnSobre(view: View){
+        val intent = Intent(this, Sobre::class.java)
+        startActivity(intent)
+    }
 }
