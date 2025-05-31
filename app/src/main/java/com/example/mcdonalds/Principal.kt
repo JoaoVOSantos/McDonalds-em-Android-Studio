@@ -34,13 +34,16 @@ class Principal : AppCompatActivity() {
                 val intent = Intent(this, Carrinho::class.java)
                 startActivity(intent)
             }
+            R.id.btnToolbarHistorico -> {
+                val intent = Intent(this, Historico::class.java)
+                startActivity(intent)
+            }
         }
         return true
     }
 
-    fun btnSobre(view: View){
-        val intent = Intent(this, Sobre::class.java)
+    fun btnComprarProduto(view: View){
+        val intent = Intent(this, Produtos::class.java)
         startActivity(intent)
     }
-
 }

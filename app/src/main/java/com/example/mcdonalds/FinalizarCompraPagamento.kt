@@ -36,6 +36,10 @@ class FinalizarCompraPagamento : AppCompatActivity() {
                 val intent = Intent(this, Carrinho::class.java)
                 startActivity(intent)
             }
+            R.id.btnToolbarHistorico -> {
+                val intent = Intent(this, Historico::class.java)
+                startActivity(intent)
+            }
         }
         return true
     }
